@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  min-width: 10vh;
+  background-color: rgb(95, 169, 144);
+  color: white;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer-links a {
+  display: flex;
+  align-items: center;
+  color: white;
+}
